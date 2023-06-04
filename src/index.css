@@ -1,0 +1,23 @@
+.header__nav{
+  padding: 0 20px;
+  background-color: #cddc39;
+}
+.footer{
+  background-color: #cddc39;
+}
+.content{
+  min-height: calc(100vh - 70px - 64px);
+}
+.movies{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.search-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+label:not(:last-child){
+  margin-right: 1rem;
+}
